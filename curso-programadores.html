@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiniAcad | Pequeños programadores</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="nav-container">
+    <a class="logo" href="index.html"><span>🚀</span><strong>Mini</strong>Acad</a>
+    <nav class="nav-links">
+      <a href="index.html">🏠 Inicio</a><a class="active" href="cursos.html">📚 Cursos</a>
+      <a href="index.html#logros">🏆 Logros</a><a href="index.html#perfil">👤 Mi perfil</a>
+    </nav>
+    <div class="nav-actions"><button class="icon-button" id="themeButton">🌙</button><span class="points-button">⭐ <span id="pointsCounter">120</span></span></div>
+  </div>
+</header>
+
+<main>
+<section class="course-detail-hero">
+  <div class="container detail-hero-grid">
+    <div>
+      <a class="back-link" href="cursos.html">← Volver al catálogo</a>
+      <span class="course-label">💻 TECNOLOGÍA · ⭐ FÁCIL</span>
+      <h1>Pequeños programadores</h1>
+      <p>Aprende los secretos de la programación con retos sencillos, personajes y actividades divertidas.</p>
+      <div class="hero-buttons"><button class="primary-button" id="startLearning">▶️ Continuar curso</button><span class="course-pill">⏱️ 25 min · 🎯 4 lecciones</span></div>
+    </div>
+    <div class="detail-illustration">💻<span>🤖</span><span>✨</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container detail-layout">
+    <aside class="course-sidebar">
+      <div class="sidebar-progress"><div class="progress-title"><strong>Tu progreso</strong><b id="courseProgressText">65%</b></div><div class="progress-bar"><span id="courseProgressBar" style="width:65%"></span></div></div>
+      <h3>Contenido</h3>
+      <button class="lesson-nav active" data-lesson="1">1. ¿Qué es programar?</button>
+      <button class="lesson-nav" data-lesson="2">2. Instrucciones y secuencias</button>
+      <button class="lesson-nav" data-lesson="3">3. Los bucles</button>
+      <button class="lesson-nav" data-lesson="4">4. Reto final</button>
+    </aside>
+
+    <div class="lesson-area">
+      <article class="lesson-card" id="lessonCard">
+        <span class="lesson-number" id="lessonNumber">LECCIÓN 1 DE 4</span>
+        <h2 id="lessonTitle">¿Qué es programar?</h2>
+        <p id="lessonText">Programar es darle instrucciones a una computadora para que haga algo. Las instrucciones deben estar ordenadas para que el computador sepa qué hacer primero, después y al final.</p>
+        <div class="concept-box" id="conceptBox">💡 <strong>Idea clave:</strong> un programa es como una receta: tiene pasos que se deben seguir en un orden.</div>
+        <div class="activity-box">
+          <span>🎮 ACTIVIDAD</span>
+          <h3 id="activityTitle">Ordena la aventura</h3>
+          <p id="activityText">Imagina que un robot quiere preparar un sándwich. ¿Qué debe hacer primero?</p>
+          <div class="answer-grid" id="answerGrid">
+            <button data-answer="wrong">Comerse el sándwich 🥪</button>
+            <button data-answer="correct">Tomar el pan 🍞</button>
+            <button data-answer="wrong">Guardar el sándwich 📦</button>
+          </div>
+          <div class="question-result" id="questionResult"></div>
+        </div>
+        <div class="lesson-actions">
+          <button class="secondary-button" id="prevLesson">← Anterior</button>
+          <button class="primary-button" id="nextLesson">Siguiente →</button>
+        </div>
+      </article>
+
+      <section class="question-card">
+        <span>🧠 COMPRUEBA LO QUE APRENDISTE</span>
+        <h2>¿Cuál de estas opciones es una secuencia de instrucciones?</h2>
+        <div class="quiz-options">
+          <button class="quiz-option" data-correct="false">🐱 Gato, perro, conejo</button>
+          <button class="quiz-option" data-correct="true">1️⃣ Encender → 2️⃣ Escribir → 3️⃣ Guardar</button>
+          <button class="quiz-option" data-correct="false">🌈 Rojo, azul, verde</button>
+        </div>
+        <p class="quiz-feedback" id="quizFeedback"></p>
+      </section>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="container footer-bottom"><span>© 2026 MiniAcad</span><a href="cursos.html">📚 Más cursos</a></div></footer>
+<script src="app.js"></script>
+</body>
+</html>

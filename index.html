@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiniAcad | Aprende jugando</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="nav-container">
+    <a class="logo" href="index.html"><span>🚀</span><strong>Mini</strong>Acad</a>
+    <nav class="nav-links">
+      <a class="active" href="index.html">🏠 Inicio</a>
+      <a href="cursos.html">📚 Cursos</a>
+      <a href="index.html#logros">🏆 Logros</a>
+      <a href="index.html#perfil">👤 Mi perfil</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-button" id="themeButton" title="Cambiar tema">🌙</button>
+      <span class="points-button">⭐ <span id="pointsCounter">120</span></span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="welcome-badge">🚀 ¡Hola, explorador!</span>
+        <h1>Aprende cosas <span class="highlight">increíbles</span> jugando.</h1>
+        <p class="hero-description">Descubre ciencia, tecnología, matemáticas y creatividad con cursos cortos, actividades y retos pensados para aprender mientras te diviertes.</p>
+        <div class="hero-buttons">
+          <a class="primary-button" href="cursos.html">📚 Explorar cursos</a>
+          <a class="secondary-button" href="ordenar-cuarto.html">🧹 Aprender a ordenar</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>12</strong><span>Cursos</span></div>
+          <div><strong>48</strong><span>Actividades</span></div>
+          <div><strong>8</strong><span>Insignias</span></div>
+        </div>
+      </div>
+      <div class="hero-illustration">
+        <div class="planet p1"></div><div class="planet p2"></div>
+        <div class="floating-star s1">⭐</div><div class="floating-star s2">✨</div>
+        <div class="robot">
+          <div class="antenna"></div>
+          <div class="robot-head">
+            <i class="eye e1"></i><i class="eye e2"></i><i class="mouth"></i>
+          </div>
+          <div class="robot-body"><div class="robot-panel">★ ♥ ●</div></div>
+        </div>
+        <div class="speech-bubble">¡Vamos a aprender! 🎉</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="progress-section">
+    <div class="container">
+      <div class="progress-card">
+        <div class="progress-icon">🚀</div>
+        <div>
+          <div class="progress-title"><div><small>TU PROGRESO</small><h2>¡Sigue así!</h2></div><strong id="progressPercentage">35%</strong></div>
+          <div class="progress-bar"><span id="mainProgress" style="width:35%"></span></div>
+          <p>Tu progreso se guarda automáticamente en este dispositivo.</p>
+        </div>
+        <div class="progress-medal">🥇</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="logros">
+    <div class="container">
+      <div class="section-heading"><small>🏆 COLECCIONA</small><h2>Tus logros</h2><p>Completa aventuras para desbloquear insignias.</p></div>
+      <div class="achievements-grid">
+        <article class="achievement"><span>🚀</span><div><h3>Primer despegue</h3><p>Completaste tu primera actividad.</p></div></article>
+        <article class="achievement"><span>⭐</span><div><h3>Estrella curiosa</h3><p>Ganaste tus primeros 100 puntos.</p></div></article>
+        <article class="achievement locked"><span>🧠</span><div><h3>Cerebro brillante</h3><p>Completa 5 cursos.</p></div></article>
+        <article class="achievement locked"><span>🏆</span><div><h3>Gran explorador</h3><p>Consigue 500 puntos.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section profile-section" id="perfil">
+    <div class="container profile-card">
+      <div class="avatar">🧑‍🚀</div>
+      <div><small>MI PERFIL</small><h2>Alex Explorador 🚀</h2><p>¡Sigue aprendiendo y desbloquea nuevas aventuras!</p></div>
+      <div class="profile-stats"><div><strong id="profilePoints">120</strong><span>Puntos</span></div><div><strong>2</strong><span>Insignias</span></div><div><strong>3</strong><span>Días activos</span></div></div>
+    </div>
+  </section>
+<section class="section"><div class="container"><div class="section-heading"><small>🌟 RECOMENDADOS</small><h2>Dos aventuras para practicar hoy</h2><p>Aprende a organizar tu cuarto y a resolver restas paso a paso.</p></div><div class="courses-grid"><article class="course-card"><div class="course-image life"><span>🧹</span></div><div class="course-content"><div class="course-meta"><span>Vida diaria</span><span>⭐ Fácil</span></div><h3>¡Mi cuarto en orden!</h3><p>Aprende una rutina sencilla para recoger, guardar y mantener tu espacio organizado.</p><a class="course-button" href="ordenar-cuarto.html">Aprender a ordenar 🚀</a></div></article><article class="course-card"><div class="course-image math"><span>➖</span></div><div class="course-content"><div class="course-meta"><span>Matemáticas</span><span>⭐ Fácil</span></div><h3>Súper restas</h3><p>Aprende a restar usando objetos, dibujos y problemas de la vida diaria.</p><a class="course-button" href="super-restas.html">Practicar restas 🚀</a></div></article></div></div></section></main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><a class="logo footer-logo" href="index.html">🚀 <strong>Mini</strong>Acad</a><p>Aprender nunca había sido tan divertido. 🌈</p></div>
+    <div><h3>MiniAcad</h3><a href="cursos.html">Cursos</a><a href="index.html#logros">Logros</a><a href="index.html#perfil">Mi perfil</a></div>
+    <div><h3>Curso destacado</h3><a href="curso-programadores.html">Pequeños programadores</a></div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniAcad | Viaje al espacio</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body><header class="navbar"><div class="nav-container"><a class="logo" href="index.html">🚀 <strong>Mini</strong>Acad</a>
+<nav class="nav-links"><a href="index.html">🏠 Inicio</a><a class="active" href="cursos.html">📚 Cursos</a><a href="index.html#logros">🏆 Logros</a><a href="index.html#perfil">👤 Mi perfil</a></nav>
+<div class="nav-actions"><button class="icon-button" id="themeButton">🌙</button><span class="points-button">⭐ <span id="pointsCounter">120</span></span></div></div></header>
+<main><section class="course-detail-hero"><div class="container detail-hero-grid"><div><a class="back-link" href="cursos.html">← Volver al catálogo</a><span class="course-label">🚀 CIENCIA · ⭐ Fácil</span><h1>Viaje al espacio</h1><p>Explora planetas, estrellas y algunos misterios del universo.</p><div class="hero-buttons"><button class="primary-button" id="startLearning">▶️ Comenzar curso</button><span class="course-pill">⏱️ 30 min · 🎯 5 lecciones</span></div></div>
+<div class="detail-illustration">🚀<span>⭐</span><span>✨</span></div></div></section>
+<section class="section"><div class="container detail-layout"><aside class="course-sidebar"><div class="sidebar-progress"><div class="progress-title"><strong>Tu progreso</strong><b id="courseProgressText">0%</b></div><div class="progress-bar"><span id="courseProgressBar" style="width:0%"></span></div></div><h3>Contenido</h3><button class="lesson-nav active" data-lesson="1">1. Nuestro sistema solar</button><button class="lesson-nav " data-lesson="2">2. La Tierra</button><button class="lesson-nav " data-lesson="3">3. La Luna</button><button class="lesson-nav " data-lesson="4">4. Las estrellas</button><button class="lesson-nav " data-lesson="5">5. Misión espacial</button></aside>
+<div class="lesson-area"><article class="lesson-card" id="lessonCard"><span class="lesson-number" id="lessonNumber">LECCIÓN 1 DE 5</span><h2 id="lessonTitle"></h2><p id="lessonText"></p><div class="concept-box" id="conceptBox"></div>
+<div class="activity-box"><span>🎮 ACTIVIDAD</span><h3 id="activityTitle"></h3><p id="activityText"></p><div class="answer-grid" id="answerGrid"></div><div class="question-result" id="questionResult"></div></div>
+<div class="lesson-actions"><button class="secondary-button" id="prevLesson">← Anterior</button><button class="primary-button" id="nextLesson">Siguiente →</button></div></article>
+<section class="question-card"><span>🧠 COMPRUEBA LO QUE APRENDISTE</span><h2>¿Qué ayuda más a aprender?</h2><div class="quiz-options"><button class="quiz-option" data-correct="false">😴 No practicar</button><button class="quiz-option" data-correct="true">🎯 Intentar, comprobar y aprender</button><button class="quiz-option" data-correct="false">🤔 Adivinar sin pensar</button></div><p class="quiz-feedback" id="quizFeedback"></p></section></div></div></section></main>
+<footer class="footer"><div class="container footer-bottom"><span>© 2026 MiniAcad</span><a href="cursos.html">📚 Más cursos</a></div></footer>
+<script>window.MINIACAD_COURSE={"slug": "viaje-al-espacio", "title": "Viaje al espacio", "lessons": [["Nuestro sistema solar", "Conoce el Sol y los planetas que lo rodean.", "💡 El Sol es una estrella.", ["El Sol", "La Luna", "La Tierra"]], ["La Tierra", "Nuestra Tierra es un planeta con agua, aire y vida.", "💡 La Tierra gira alrededor del Sol.", ["🌍 Tierra", "🪐 Saturno", "☀️ Sol"]], ["La Luna", "La Luna es el satélite natural de la Tierra.", "💡 La Luna refleja la luz del Sol.", ["La Luna", "El Sol", "Marte"]], ["Las estrellas", "Las estrellas son enormes objetos que producen luz y calor.", "💡 El Sol es la estrella más cercana a la Tierra.", ["Estrellas", "Solo nubes", "Solo aviones"]], ["Misión espacial", "Repasa lo aprendido y prepara una misión imaginaria.", "🏆 ¡Misión completada!", ["Viajar a un planeta", "Viajar sin traje", "No mirar el cielo"]]]};</script><script src="app.js"></script></body></html>
